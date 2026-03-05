@@ -1,0 +1,101 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+
+}
+.web{
+    display: flex;
+    justify-content: center;
+}
+.service .nav1{
+    background-color: rgba(39, 99, 99, 0.634);
+    display: flex;
+    justify-content: space-around;
+    width: 100% ;
+    gap: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 30px;
+    list-style: none;
+}
+
+.service .nav1 a{
+    text-decoration: none;
+    color: rgb(233, 233, 243);
+    font-weight: 600;
+}
+
+.service .nav1 a:hover{
+     color: rgb(165, 165, 107);
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+.service .div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center; 
+  background: #f9f9f941;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+  padding: 10px;
+  
+  border-radius: 20px;
+}
+
+.div hr {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.service .div > div {
+  display: flex;
+  gap: 80px;               
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;               
+  width: 600px;            
+}
+
+.div2 label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.div2 input {
+  padding: 8px 20px;
+  border: 1px solid #bcb2b2;
+  border-radius: 10px;
+  color: black;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+button{
+    background-color: rgb(133, 133, 207);
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.service .div3{
+    display: flex;
+    gap:10px;
+}
