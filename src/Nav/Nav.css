@@ -1,5 +1,5 @@
 .nav{
-    width: 100%;
+    width: 95%;
     height: 50px;
     background-color:  rgb(202, 195, 102);
     padding: 5px;
@@ -45,3 +45,90 @@
 @keyframes blink {
   50% { border-color: transparent; }
 }
+
+
+.home-btn {
+  position: relative;
+  display: inline-block;
+  top: 100%;
+  font-size: 35px;
+  color: rgb(160, 176, 182)
+}
+
+/* Dropdown hidden by default */
+.home-btn main{
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  min-width: 180px;
+  
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+
+  border-radius: 12px;
+  padding: 12px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+
+  transform: translateY(10px);
+  opacity: 0;
+
+  transition: all 0.3s ease;
+}
+
+/* Show dropdown */
+.home-btn:hover main{
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Button style */
+.home-btn button{
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+
+  background: linear-gradient(135deg,#ff7eb3,#ff758c);
+  border: none;
+  border-radius: 8px;
+
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.home-btn button:hover{
+  transform: translateX(5px) scale(1.05);
+  background: linear-gradient(135deg,#ff4f8b,#ff2f6d);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+.home-btn a,
+.home-btn select {
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+  padding: 6px 8px;
+  display: block;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.home-btn a:hover,
+.home-btn select:hover {
+  background: rgba(137, 43, 226, 0.1);
+}
+
+.div>aside{
+  display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+

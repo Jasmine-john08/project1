@@ -57,6 +57,14 @@ th {
 .homeSearch button{
     padding: 10px 20px;
     border-radius: 0px 20px 10px 0px;
-    
+}
+
+#link{
+  text-decoration: none;
+  color: rgb(239, 14, 14);
+  background-color: rgb(43, 205, 151);
+  padding: 07px 20px;
+  border-radius: 20px;
+  font-weight: 800;
 }
 

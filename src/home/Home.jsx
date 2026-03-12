@@ -34,7 +34,7 @@ const Home = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td><Link to={"status"}>Status</Link></td>
+            <td><Link id='link' to={"status"}>Status</Link></td>
           </tr>
         </tbody>
       </table>

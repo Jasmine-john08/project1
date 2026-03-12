@@ -10,6 +10,7 @@ import Home from './home/Home'
 import Service from './Service/Service'
 import Spares from './spares/Spares'
 import Status from './status/Status'
+import SpareEdit from './Spare-edit/SpareEdit'
 
 
 let myrouter = createBrowserRouter([
@@ -20,7 +21,9 @@ let myrouter = createBrowserRouter([
       { index: true, element: <Home/>,},
       { path: "service", element: <Service/>,children:[{path:"fan",element:<Fan/>},{path:"motor",element:<Motor/>},{path:"power-tools",element:<Power/>}] },
       { path: "spares", element: <Spares/> },
-      { path: "about", element: <Motor /> }
+      { path: "about", element: <Motor /> },
+      { path: "status/", element: <Status/> },
+      {path: "/spareEdit",element:<SpareEdit/>}
     ]
   },
   { path: "/login", element: <Login /> }
